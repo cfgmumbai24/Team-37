@@ -1,20 +1,37 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
-@layer base {
-  html {
-    @apply text-surface;
-    @apply bg-white;
-  }
-  html.dark {
-    @apply text-neutral-50;
-    @apply bg-body-dark;
-  }
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans 3", sans-serif;
 }
 
-@tailwind components;
-@tailwind utilities;
-
-p {
-  @apply leading-[1.6];
+.app {
+  display: flex;
+  position: relative;
 }
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+
+/* Handle or Hover */
+::-webkit-scrollbar-track:hover{
+  background: #555;
+}
+
+
