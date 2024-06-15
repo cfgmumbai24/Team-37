@@ -110,7 +110,7 @@ function App() {
           <Route path="/user/form" element={<Signup />} />
 
           <Route path="*" element={<PageNotFound />} />
-          <Route path="/guide" element={<Guide/>}
+          <Route path="/guide" element={<Guide/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
