@@ -162,6 +162,13 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+              title="Inventory"
+              to="/inventory"
+              icon={<ReceiptOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
 
             <Typography
               variant="h6"
@@ -174,6 +181,13 @@ const Sidebar = () => {
             <Item
               title="Create User"
               to="/form"
+              icon={<PersonOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+             <Item
+              title="Create Category"
+              to="/category"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
