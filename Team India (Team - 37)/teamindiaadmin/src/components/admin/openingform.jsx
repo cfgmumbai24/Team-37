@@ -2,10 +2,6 @@ import React, { useEffect } from "react";
 
 const Openingform = ({ newOpening, setNewOpening, handleAddOpening, logo, setLogo }) => {
   useEffect(() => {
-    const authToken = localStorage.getItem("authAdminToken");
-    if (!authToken) {
-      window.location.href = "/login";
-    }
   }, []);
   return (
     <div className="max-w-screen-lg m-auto">
