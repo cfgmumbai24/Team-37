@@ -25,6 +25,8 @@ import Footer from "./components/subadmin/Footer";
 import PageNotFound from "./pages/subadmin/PageNotFound";
 import Account from "./pages/subadmin/Account";
 import Products from "./pages/buyers/Products";
+import Form from './pages/artisian/form';
+import Guide from './pages/artisian/guide';
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
   return (
@@ -106,8 +108,8 @@ function Appcopy() {
           <Route path='/customer/checkout-items' element={<Cart />} />
 
           {/* User */}
-          <Route path="/user" element={<Signup />} />
-          <Route path="/user/form" element={<Signup />} />
+          <Route path="/user" element={<Form />} />
+          <Route path="/user/guide" element={<Guide />} />
           <Route path='/customer/product' element={<ProductPage />}>
             <Route path=':productId' element={<ProductPage />} />
           </Route>

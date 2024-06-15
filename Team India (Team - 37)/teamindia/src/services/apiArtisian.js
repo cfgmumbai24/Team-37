@@ -1,5 +1,5 @@
 // validateUser.js
-import { supabase } from "./supabase"; // Ensure you have the correct path to your Supabase client
+import supabase from "./supabase"; // Ensure you have the correct path to your Supabase client
 
 export const validateUser = async (email, password) => {
   console.log(email, password);

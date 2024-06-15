@@ -23,7 +23,6 @@ import PageNotFound from "./pages/subadmin/PageNotFound";
 import Account from "./pages/subadmin/Account";
 import Form from "./pages/artisian/form";
 import Guide from "./pages/artisian/guide";
-import Login from "./pages/artisian/Login";
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
   return (
@@ -35,7 +34,8 @@ function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
         width: "100dvw",
         position: "fixed",
         bottom: 24,
-      }}>
+      }}
+    >
       <ToggleButtonGroup
         color="primary"
         exclusive
@@ -47,7 +47,8 @@ function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
           "& .Mui-selected": {
             pointerEvents: "none",
           },
-        }}></ToggleButtonGroup>
+        }}
+      ></ToggleButtonGroup>
     </Box>
   );
 }
@@ -89,6 +90,7 @@ function App() {
           token={token}
         /> */}
         <Routes>
+          <Route path="/" element={<Form />} />
           <Route path="/subadmin/blogs" element={<Blog />} />
           <Route path="/subadmin/about" element={<About />} />
           <Route path="/subadmin/contact" element={<Contact />} />
@@ -104,13 +106,12 @@ function App() {
           <Route path="/customer/product" element={<Signup />} />
 
           {/* User */}
+          <Route path="/user" element={<Signup />} />
           <Route path="/user/form" element={<Signup />} />
 
-          <Route path="/user" element={<Form />} />
-          <Route path="/user/guide" element={<Guide />} />
-          <Route path="/user/login" element={<Login setToken={setToken} />} />
-
           <Route path="*" element={<PageNotFound />} />
+          <Route path="/guide" element={<Guide/>}/>
+    
         </Routes>
         <Footer />
       </BrowserRouter>
