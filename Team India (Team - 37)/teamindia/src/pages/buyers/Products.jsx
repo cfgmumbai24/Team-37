@@ -12,7 +12,7 @@ const Products = (props) => {
   const[error, setError] = useState(null);
 
   // console.log(products);
-``
+
   useEffect(() => {
     const loadProducts = async () => {
       try {
