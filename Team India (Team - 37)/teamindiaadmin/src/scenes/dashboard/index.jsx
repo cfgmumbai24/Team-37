@@ -55,7 +55,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="12,361"
+            title="15"
             subtitle="Emails Sent"
             progress="0.75"
             increase="+14%"
@@ -76,7 +76,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225"
+            title="200"
             subtitle="Sales Obtained"
             progress="0.5"
             increase="+21%"
@@ -97,7 +97,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="32,441"
+            title="10"
             subtitle="New Clients"
             progress="0.30"
             increase="+5%"
@@ -118,7 +118,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="1,325,134"
+            title="100"
             subtitle="Traffix Inbound"
             progress="0.80"
             increase="+43%"
@@ -149,7 +149,7 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Revenue Generated
+                Sales Generated
               </Typography>
 
               <Typography
@@ -157,7 +157,7 @@ const Dashboard = () => {
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                $59,342,32
+                $200
               </Typography>
             </Box>
 
@@ -250,7 +250,7 @@ const Dashboard = () => {
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              $48,352 Revenue Generated
+              $200 Sales Generated
             </Typography>
             <Typography>Includes extra misc expenditures and cost</Typography>
           </Box>
