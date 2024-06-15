@@ -12,8 +12,10 @@ const Item = (props) => {
   return (
     <div className="item">
       <Link to={`/customer/product/${props.id}`}><img className="item-img" onClick={window.scrollTo(0,0)} src={props.image} alt="" /></Link>
-      <p>{props.name}</p>
-      <button onClick={() => {addToCart(product.id)}}>Add to Cart</button>
+      <div className='product-name'>{props.name}</div>
+      <div className="product-desc">{props.desc}</div>
+      <div className='product-color'><span>Color: </span> {props.color}</div>
+      <span className="product-category">#{props.category}</span>
     </div>
   )
 }

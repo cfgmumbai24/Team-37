@@ -41,8 +41,8 @@ const Products = (props) => {
       <img className="shop-category-banner"src={props.banner} alt="" />
       <div className="shopcategory-products">
         {products.map((item, i) => {
-          return <Item key={i} id={item.id} name={item.description} image={item.imgUrl
-          } />
+          return <Item key={i} id={item.id} name={item.name} image={item.imgUrl
+          } category={item.category} color={item.color} desc={item.description}/>
         })}
       </div>
     </div>
