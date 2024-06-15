@@ -21,6 +21,8 @@ import Contact from "./pages/subadmin/Contact";
 import Footer from "./components/subadmin/Footer";
 import PageNotFound from "./pages/subadmin/PageNotFound";
 import Account from "./pages/subadmin/Account";
+import Form from "./pages/artisian/form";
+import Guide from "./pages/artisian/guide";
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
   return (
@@ -82,13 +84,13 @@ function App() {
     <ThemeProvider theme={showCustomTheme ? LPtheme : defaultTheme}>
       <CssBaseline />
       <BrowserRouter>
-        <AppAppBar
+        {/* <AppAppBar
           mode={mode}
           toggleColorMode={toggleColorMode}
           token={token}
-        />
+        /> */}
         <Routes>
-          <Route path="/" element={<Feed />} />
+          <Route path="/" element={<Form />} />
           <Route path="/subadmin/blogs" element={<Blog />} />
           <Route path="/subadmin/about" element={<About />} />
           <Route path="/subadmin/contact" element={<Contact />} />
@@ -108,6 +110,7 @@ function App() {
           <Route path="/user/form" element={<Signup />} />
 
           <Route path="*" element={<PageNotFound />} />
+          <Route path="/guide" element={<Guide/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

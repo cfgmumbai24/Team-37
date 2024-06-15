@@ -1,0 +1,27 @@
+.flex-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; /* Adjust the gap between cards as needed */
+}
+
+.flex-container .card {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container .card img {
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .flex-container {
+    grid-template-columns: 1fr;
+  }
+}
