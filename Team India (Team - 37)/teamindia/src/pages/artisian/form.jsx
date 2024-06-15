@@ -16,7 +16,7 @@ const Form = () => {
                 <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
             </a>
             <div className="flex items-center lg:order-2">
-                <a href="#" className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a>
+                <a href="#" className="font-sans text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a>
                 <a href="#" className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Get started</a>
                 <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
@@ -53,14 +53,14 @@ const Form = () => {
             />
           </div>
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2 text-center">
+            <div className="font-sans font-bold text-xl mb-2 text-center">
               Terracotta Ornaments
             </div>
           </div>
 
           <div className="button-container justify">
             <button data-modal-target="authentication-modal"
-              data-modal-toggle="authentication-modal" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+              data-modal-toggle="authentication-modal" className="font-sans bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
               Select
             </button>
 
@@ -155,13 +155,13 @@ const Form = () => {
             />
           </div>
           <div className="px-6 py-4 justify-between">
-            <div className="font-bold text-xl mb-2 text-center">
+            <div className="font-sans font-bold text-xl mb-2 text-center">
               Macrame Based Handicraft
             </div>
           </div>
           <div className="button-container">
             <button data-modal-target="authentication-modal"
-              data-modal-toggle="authentication-modal" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+              data-modal-toggle="authentication-modal" className="font-sans bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
               Select
             </button>
           </div>
@@ -178,13 +178,13 @@ const Form = () => {
             />
           </div>
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2 text-center">
+            <div className="font-sans font-bold text-xl mb-2 text-center">
               Moonj Based Handicrafts
             </div>
           </div>
           <div className="button-container">
             <button data-modal-target="authentication-modal"
-              data-modal-toggle="authentication-modal" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+              data-modal-toggle="authentication-modal" className="font-sans bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
               Select
             </button>
           </div>
@@ -201,13 +201,13 @@ const Form = () => {
             />
           </div>
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2 text-center">
+            <div className="font-sans font-bold text-xl mb-2 text-center">
               Banana Fiber based ornaments
             </div>
           </div>
           <div className="button-container">
             <button data-modal-target="authentication-modal"
-              data-modal-toggle="authentication-modal" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+              data-modal-toggle="authentication-modal" className="font-sans bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
               Select
             </button>
           </div>
@@ -224,13 +224,13 @@ const Form = () => {
             />
           </div>
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2 text-center">
+            <div className="font-sans font-bold text-xl mb-2 text-center">
               Jute Bags & Allied Products
             </div>
           </div>
           <div className="button-container">
             <button data-modal-target="authentication-modal"
-              data-modal-toggle="authentication-modal" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+              data-modal-toggle="authentication-modal" className="font-sans bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
               Select
             </button>
           </div>
