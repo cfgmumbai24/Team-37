@@ -33,6 +33,15 @@ export async function login({ email, password }) {
     console.log("Error from apiAuth/login");
     throw new Error(error.message);
   }
+  else {
+    const id = data.user.id;
+    const {data, error} = await supabase.from('users').select('*').eq('id', id).single();
+    if(data.role !== 1)  {
+      console.log('You are not a sub-admin')
+      throw new Error("You are not a sub-admin");
+      await supabase.auth.signOut();
+    }
+  }
 
   return data;
 }

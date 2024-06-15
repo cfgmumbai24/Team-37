@@ -49,11 +49,6 @@ export default function Signin({ setToken }) {
     const email = data.get("email");
     const password = data.get("password");
 
-    console.log({
-      email,
-      password,
-    });
-
     try {
       const userData = await login({ email, password });
       setToken(userData);

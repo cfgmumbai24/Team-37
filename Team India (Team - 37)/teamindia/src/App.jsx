@@ -4,9 +4,7 @@ import PropTypes from "prop-types";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
-import AutoAwesomeRoundedIcon from "@mui/icons-material/AutoAwesomeRounded";
 import AppAppBar from "./components/subadmin/AppAppBar";
 import theme from "../src/theme";
 
@@ -21,6 +19,8 @@ import Contact from "./pages/subadmin/Contact";
 import Footer from "./components/subadmin/Footer";
 import PageNotFound from "./pages/subadmin/PageNotFound";
 import Account from "./pages/subadmin/Account";
+import Request from "./pages/subadmin/Request";
+import Inventory from "./pages/subadmin/Inventory";
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
   return (
@@ -90,6 +90,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Feed />} />
           <Route path="/subadmin/blogs" element={<Blog />} />
+          <Route path="/subadmin/request" element={<Request />} />
+          <Route path="/subadmin/inventory" element={<Inventory />} />
           <Route path="/subadmin/about" element={<About />} />
           <Route path="/subadmin/contact" element={<Contact />} />
           <Route path="/subadmin/account" element={<Account token={token} />} />
@@ -97,7 +99,8 @@ function App() {
             path="/subadmin/sign-in"
             element={<Signin setToken={setToken} />}
           />
-          <Route path="/subadmin/sign-up" element={<Signup />} />
+          
+          {/* <Route path="/subadmin/sign-up" element={<Signup />} /> */}
 
           {/* Buyer */}
           <Route path="/customer" element={<Signup />} />
