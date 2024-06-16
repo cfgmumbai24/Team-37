@@ -17,10 +17,9 @@ const Feed = () => {
       <Divider />
       <Testimonials />
       <Divider />
-      <Highlights />
+     <Highlights/>
       <Divider />
-      <Pricing />
-      <Divider />
+       <Divider />
       <FAQ />
     </div>
   );

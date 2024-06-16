@@ -149,7 +149,7 @@ function AppAppBar({ mode, toggleColorMode, token }) {
                   </Typography>
                 </MenuItem>
                 <MenuItem
-                  onClick={() => navigate("/blogs")}
+                  onClick={() => navigate("/subadmin/blogs")}
                   sx={{ py: "6px", px: "12px" }}
                 >
                   <Typography variant="body2" color="text.primary">
@@ -157,7 +157,7 @@ function AppAppBar({ mode, toggleColorMode, token }) {
                   </Typography>
                 </MenuItem>
                 <MenuItem
-                  onClick={() => navigate("/about")}
+                  onClick={() => navigate("/subadmin/about")}
                   sx={{ py: "6px", px: "12px" }}
                 >
                   <Typography variant="body2" color="text.primary">
@@ -165,7 +165,7 @@ function AppAppBar({ mode, toggleColorMode, token }) {
                   </Typography>
                 </MenuItem>
                 <MenuItem
-                  onClick={() => navigate("/contact")}
+                  onClick={() => navigate("/subadmin/contact")}
                   sx={{ py: "6px", px: "12px" }}
                 >
                   <Typography variant="body2" color="text.primary">
@@ -315,9 +315,9 @@ function AppAppBar({ mode, toggleColorMode, token }) {
                   <MenuItem onClick={() => scrollToSection("highlights")}>
                     Highlights
                   </MenuItem>
-                  <MenuItem onClick={() => scrollToSection("pricing")}>
+                  {/* <MenuItem onClick={() => scrollToSection("pricing")}>
                     Pricing
-                  </MenuItem>
+                  </MenuItem> */}
                   <MenuItem onClick={() => scrollToSection("faq")}>
                     FAQ
                   </MenuItem>

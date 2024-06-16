@@ -16,27 +16,27 @@ import ViewQuiltRoundedIcon from '@mui/icons-material/ViewQuiltRounded';
 const items = [
   {
     icon: <ViewQuiltRoundedIcon />,
-    title: 'Dashboard',
+    title: 'Artisan Showcase',
     description:
-      'This item could provide a snapshot of the most important metrics or data points related to the product.',
-    imageLight: 'url("/static/images/templates/templates-images/dash-light.png")',
-    imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
+    'This section highlights the diverse and exquisite handcrafted artifacts created by talented women artisans. It serves as a platform to celebrate their craftsmanship and promote their unique cultural heritage.',
+    // imageLight: 'url("/static/images/templates/templates-images/dash-light.png")',
+    // imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
-    title: 'Mobile integration',
+    title: 'Volunteer Management System',
     description:
-      'This item could provide information about the mobile app version of the product.',
-    imageLight: 'url("/static/images/templates/templates-images/mobile-light.png")',
-    imageDark: 'url("/static/images/templates/templates-images/mobile-dark.png")',
+     'Facilitates recruitment, scheduling, and coordination of volunteers for our NGO.',
+    // imageLight: 'url("/static/images/templates/templates-images/mobile-light.png")',
+    // imageDark: 'url("/static/images/templates/templates-images/mobile-dark.png")',
   },
   {
     icon: <DevicesRoundedIcon />,
-    title: 'Available on all platforms',
+    title: 'Multi-Platform Access',
     description:
-      'This item could let users know the product is available on all platforms, such as web, mobile, and desktop.',
-    imageLight: 'url("/static/images/templates/templates-images/devices-light.png")',
-    imageDark: 'url("/static/images/templates/templates-images/devices-dark.png")',
+      'Access our services seamlessly across web platforms.',
+    // imageLight: 'url("/static/images/templates/templates-images/devices-light.png")',
+    // imageDark: 'url("/static/images/templates/templates-images/devices-dark.png")',
   },
 ];
 
@@ -55,16 +55,14 @@ export default function Features() {
         <Grid item xs={12} md={6}>
           <div>
             <Typography component="h2" variant="h4" color="text.primary">
-              Product features
+              Program Highlights
             </Typography>
             <Typography
               variant="body1"
               color="text.secondary"
               sx={{ mb: { xs: 2, sm: 4 } }}
             >
-              Here you can provide a brief overview of the key features of the
-              product. For example, you could list the number of features, the types
-              of features, add-ons, or the benefits of the features.
+             JPMMSS is committed to advancing women artisans by equipping them with essential skills, resources, and global platforms to effectively market their handcrafted artifacts. Through JPMMSS, these talented women gain access to opportunities that ensure fair and stable income from their distinctive creations, thereby fostering economic independence and enhancing their overall quality of life.
             </Typography>
           </div>
           <Grid container item gap={1} sx={{ display: { xs: 'auto', sm: 'none' } }}>

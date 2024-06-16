@@ -21,6 +21,12 @@ import PageNotFound from "./pages/subadmin/PageNotFound";
 import Account from "./pages/subadmin/Account";
 import Request from "./pages/subadmin/Request";
 import Inventory from "./pages/subadmin/Inventory";
+import Form from "./pages/artisian/form";
+import Guide from "./pages/artisian/guide";
+import Login from "./pages/artisian/Login";
+import Products from "./pages/buyers/Products";
+import Cart from "./pages/buyers/Cart";
+import EntryPage from "./pages/EntryPage";
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
   return (
@@ -88,27 +94,31 @@ function App() {
           token={token}
         />
         <Routes>
-          <Route path="/" element={<Feed />} />
-          <Route path="/subadmin/blogs" element={<Blog />} />
-          <Route path="/subadmin/request" element={<Request />} />
-          <Route path="/subadmin/inventory" element={<Inventory />} />
-          <Route path="/subadmin/about" element={<About />} />
-          <Route path="/subadmin/contact" element={<Contact />} />
-          <Route path="/subadmin/account" element={<Account token={token} />} />
+          <Route path="/" element={<EntryPage />} />
+          <Route path="/jpmmss" element={<Feed />} />
+          <Route path="/jpmmss/blogs" element={<Blog />} />
+          <Route path="/jpmmss/request" element={<Request />} />
+          <Route path="/jpmmss/inventory" element={<Inventory />} />
+          <Route path="/jpmmss/about" element={<About />} />
+          <Route path="/jpmmss/contact" element={<Contact />} />
+          <Route path="/jpmmss/account" element={<Account token={token} />} />
           <Route
-            path="/subadmin/sign-in"
+            path="/jpmmss/sign-in"
             element={<Signin setToken={setToken} />}
           />
-          
+
           {/* <Route path="/subadmin/sign-up" element={<Signup />} /> */}
 
           {/* Buyer */}
-          <Route path="/customer" element={<Signup />} />
-          <Route path="/customer/product" element={<Signup />} />
+          <Route path="/customer/product" element={<Products />} />
+          <Route path='/customer/checkout-items' element={<Cart />} />
 
           {/* User */}
-          <Route path="/user" element={<Signup />} />
           <Route path="/user/form" element={<Signup />} />
+
+          <Route path="/user" element={<Form />} />
+          <Route path="/user/guide" element={<Guide />} />
+          <Route path="/user/login" element={<Login setToken={setToken} />} />
 
           <Route path="*" element={<PageNotFound />} />
         </Routes>

@@ -51,7 +51,7 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              How do I contact customer support if I have a question or issue?
+            How can I upload my handicraft pictures to the website?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -60,10 +60,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              You can reach our customer support team by emailing
-              <Link> support@email.com </Link>
-              or calling our toll-free number. We&apos;re here to assist you
-              promptly.
+              To upload your handicraft pictures, you can create an account on our website and use the dedicated upload feature in your dashboard. Simply follow the prompts to add images and provide details about your craft.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -77,7 +74,7 @@ export default function FAQ() {
             id="panel2d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              Can I return the product if it doesn&apos;t meet my expectations?
+            Is there a fee to upload my handicraft pictures?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -86,9 +83,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Absolutely! We offer a hassle-free return policy. If you&apos;re not
-              completely satisfied, you can return the product within [number of
-              days] days for a full refund or exchange.
+              No, there is no fee for uploading your handicraft pictures. Our platform is designed to support and showcase the talents of women artisans from disadvantaged backgrounds at no cost to them.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -102,7 +97,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              What makes your product stand out from others in the market?
+            What kind of handicrafts can I upload?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -111,9 +106,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability, durability,
-              and innovative features. We prioritize user satisfaction and
-              continually strive to exceed expectations in every aspect.
+             We welcome a wide range of handicrafts including textiles, jewelry, pottery, woven items, paintings, and more. If it's handmade by you and reflects your creativity, we encourage you to share it with our community.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -127,7 +120,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="h3" variant="subtitle2">
-              Is there a warranty on the product, and what does it cover?
+            How will I receive payments for my sales?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -136,10 +129,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Yes, our product comes with a [length of warranty] warranty. It covers
-              defects in materials and workmanship. If you encounter any issues
-              covered by the warranty, please contact our customer support for
-              assistance.
+               Payments for your sales are securely processed through our platform. You can choose your preferred payment method, including bank transfer or online payment systems, and withdrawals can be made according to your schedule.
             </Typography>
           </AccordionDetails>
         </Accordion>

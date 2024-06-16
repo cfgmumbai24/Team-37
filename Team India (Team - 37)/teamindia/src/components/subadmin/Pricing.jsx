@@ -12,15 +12,18 @@ import Typography from '@mui/material/Typography';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
+
+
+
 const tiers = [
   {
     title: 'Free',
     price: '0',
     description: [
-      '10 users included',
-      '2 GB of storage',
-      'Help center access',
-      'Email support',
+     
+      'All kind of Handicraft',
+      'Contact any time',
+      'Get your handicraft scalable'
     ],
     buttonText: 'Sign up for free',
     buttonVariant: 'outlined',
@@ -28,26 +31,24 @@ const tiers = [
   {
     title: 'Professional',
     subheader: 'Recommended',
-    price: '15',
+    price: '0',
     description: [
       '20 users included',
       '10 GB of storage',
-      'Help center access',
-      'Priority email support',
-      'Dedicated team',
-      'Best deals',
+      'Contact any time',
+      'Get your handicraft scalable'
     ],
     buttonText: 'Start now',
     buttonVariant: 'contained',
   },
   {
     title: 'Enterprise',
-    price: '30',
+    price: '0',
     description: [
-      '50 users included',
-      '30 GB of storage',
-      'Help center access',
-      'Phone & email support',
+     
+      '30 Handicraft',
+      'Contact any time',
+      'Get your handicraft scalable',
     ],
     buttonText: 'Contact us',
     buttonVariant: 'outlined',
@@ -55,6 +56,7 @@ const tiers = [
 ];
 
 export default function Pricing() {
+ 
   return (
     <Container
       id="pricing"
@@ -78,10 +80,8 @@ export default function Pricing() {
           Pricing
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Quickly build an effective pricing table for your potential customers with
-          this layout. <br />
-          It&apos;s built with default Material UI components with little
-          customization.
+        It invites visitors to explore the NGO's product offerings, emphasizing the beauty and uniqueness of artisanal crafts. <br />
+        It mentions the use of Material UI components, indicating a modern and user-friendly design approach tailored for the NGO's specific needs.
         </Typography>
       </Box>
       <Grid container spacing={3} alignItems="center" justifyContent="center">

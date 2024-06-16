@@ -42,7 +42,8 @@ export default function Hero() {
               fontSize: "clamp(3.5rem, 10vw, 4rem)",
             }}
           >
-            Our latest&nbsp;
+            Featured Creations
+        
             <Typography
               component="span"
               variant="h1"
@@ -54,7 +55,7 @@ export default function Hero() {
                     : "primary.light",
               }}
             >
-              products
+              
             </Typography>
           </Typography>
           <Typography
@@ -62,9 +63,7 @@ export default function Hero() {
             color="text.secondary"
             sx={{ alignSelf: "center", width: { sm: "100%", md: "80%" } }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality
-            solutions tailored to your needs. Elevate your experience with
-            top-tier features and services.
+           JPMMSS is an NGO that empowers women by selling their handcrafted artifacts, providing them with recognition and sustainable income. This initiative helps female artisans gain independence and acknowledgment for their unique creations.
           </Typography>
           <Stack
             direction={{ xs: "column", sm: "row" }}

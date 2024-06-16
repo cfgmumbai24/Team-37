@@ -15,42 +15,42 @@ const userTestimonials = [
     name: 'Remy Sharp',
     occupation: 'Senior Engineer',
     testimonial:
-      "I absolutely love how versatile this product is! Whether I'm tackling work projects or indulging in my favorite hobbies, it seamlessly adapts to my changing needs. Its intuitive design has truly enhanced my daily routine, making tasks more efficient and enjoyable.",
+      "Operating across Southeast Asia, Crafts of Hope empowers rural women through training in traditional crafts like weaving and pottery. Their beautifully crafted textiles and ceramics are sold online, ensuring fair wages and sustainable income.",
   },
   {
     avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />,
     name: 'Travis Howard',
     occupation: 'Lead Product Designer',
     testimonial:
-      "One of the standout features of this product is the exceptional customer support. In my experience, the team behind this product has been quick to respond and incredibly helpful. It's reassuring to know that they stand firmly behind their product.",
+      " Based in Africa, Heritage Artisans preserves indigenous cultures by training women in beadwork, basket weaving, and leather craftsmanship. Their products, including jewelry and woven baskets, support economic development and cultural heritage.",
   },
   {
     avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />,
     name: 'Cindy Baker',
     occupation: 'CTO',
     testimonial:
-      'The level of simplicity and user-friendliness in this product has significantly simplified my life. I appreciate the creators for delivering a solution that not only meets but exceeds user expectations.',
+      " In Latin America, Global Women's Crafts empowers marginalized women through skills in pottery, embroidery, and textile weaving. Their fair-trade stores feature handcrafted ceramics, textiles, and rugs, providing sustainable livelihoods and community support.",
   },
   {
     avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/4.jpg" />,
     name: 'Julia Stewart',
     occupation: 'Senior Engineer',
     testimonial:
-      "I appreciate the attention to detail in the design of this product. The small touches make a big difference, and it's evident that the creators focused on delivering a premium experience.",
+      " In India, Artisans United combats poverty by training women in silk weaving and natural dye techniques. Their silk scarves, dyed with organic materials, are sold globally, promoting ethical production and environmental sustainability.",
   },
   {
     avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/5.jpg" />,
     name: 'John Smith',
     occupation: 'Product Designer',
     testimonial:
-      "I've tried other similar products, but this one stands out for its innovative features. It's clear that the makers put a lot of thought into creating a solution that truly addresses user needs.",
+      "In Central Asia, EmpowerArtisans trains women in carpet weaving and felt making, preserving cultural heritage while providing sustainable incomes. They sell handmade carpets, felted items, and textiles globally, ensuring fair wages and economic independence.",
   },
   {
     avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/6.jpg" />,
     name: 'Daniel Wolf',
     occupation: 'CDO',
     testimonial:
-      "The quality of this product exceeded my expectations. It's durable, well-designed, and built to last. Definitely worth the investment!",
+      "Operating in East Africa, WomenCraft empowers women through beadwork, basket weaving, and batik training. Their handmade jewelry, baskets, and fabrics are sold internationally, supporting sustainable livelihoods and fostering social change.",
   },
 ];
 
@@ -101,12 +101,10 @@ export default function Testimonials() {
         }}
       >
         <Typography component="h2" variant="h4" color="text.primary">
-          Testimonials
+        NGO Impact Stories
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          See what our customers love about our products. Discover how we excel in
-          efficiency, durability, and satisfaction. Join us for quality, innovation,
-          and reliable support.
+        Discover stories of impact and transformation directly from those we serve and partner with.
         </Typography>
       </Box>
       <Grid container spacing={2}>

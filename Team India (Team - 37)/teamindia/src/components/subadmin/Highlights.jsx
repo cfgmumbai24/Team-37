@@ -17,37 +17,37 @@ const items = [
     icon: <SettingsSuggestRoundedIcon />,
     title: 'Adaptable performance',
     description:
-      'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
+      'Our organozation effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
   },
   {
     icon: <ConstructionRoundedIcon />,
     title: 'Built to last',
     description:
-      'Experience unmatched durability that goes above and beyond with lasting investment.',
+      'Experience unmatched support.',
   },
   {
     icon: <ThumbUpAltRoundedIcon />,
     title: 'Great user experience',
     description:
-      'Integrate our product into your routine with an intuitive and easy-to-use interface.',
+      'Integrate our facility since it is easy to use',
   },
   {
     icon: <AutoFixHighRoundedIcon />,
-    title: 'Innovative functionality',
+    title: 'Your inrichment',
     description:
-      'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
+      'Stay ahead and evolve your skills.',
   },
   {
     icon: <SupportAgentRoundedIcon />,
     title: 'Reliable support',
     description:
-      'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
+      'We have all time guidance, all time helping organization .',
   },
   {
     icon: <QueryStatsRoundedIcon />,
-    title: 'Precision in every detail',
+    title: 'We are scalable',
     description:
-      'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
+      'You create and we will scale it',
   },
 ];
 
@@ -81,9 +81,9 @@ export default function Highlights() {
             Highlights
           </Typography>
           <Typography variant="body1" sx={{ color: 'grey.400' }}>
-            Explore why our product stands out: adaptability, durability,
-            user-friendly design, and innovation. Enjoy reliable customer support and
-            precision in every detail.
+          Discover the unique qualities of our artisan products: versatility, resilience,
+thoughtful craftsmanship, and creativity. Experience dedicated customer care and
+meticulous attention to each handmade piece.
           </Typography>
         </Box>
         <Grid container spacing={2.5}>
