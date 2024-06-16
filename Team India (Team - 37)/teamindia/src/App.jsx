@@ -113,14 +113,22 @@ function App() {
           <Route path="/customer/product" element={<Products />} />
           <Route path='/customer/checkout-items' element={<Cart />} />
 
-          {/* User */}
-          <Route path="/user/form" element={<Signup />} />
-
           <Route path="/user" element={<Form />} />
           <Route path="/user/guide" element={<Guide />} />
-          <Route path="/user/login" element={<Login setToken={setToken} />} />
+
+          
+          <Route path='/customer/product' element={<ProductPage />}>
+            <Route path=':productId' element={<ProductPage />} />
+          </Route>
+
+
+          {/* User */}
+          <Route path="/user" element={<Signup />} />
+          <Route path="/user/form" element={<Signup />} />
 
           <Route path="*" element={<PageNotFound />} />
+          <Route path="/guide" element={<Guide/>}/>
+    
         </Routes>
         <Footer />
       </BrowserRouter>
