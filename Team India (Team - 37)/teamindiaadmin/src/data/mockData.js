@@ -202,69 +202,81 @@ export const mockDataContacts = [
 export const mockDataInvoices = [
   {
     id: 1,
-    name: "Jon Snow",
-    email: "jonsnow@gmail.com",
+    name: "Anjali Sharma",
+    email: "anjalisharma@gmail.com",
     cost: "21.24",
-    phone: "(665)121-5454",
+    phone: "+91 9876543210",
     date: "03/12/2022",
+    profit: "1000"
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
+    name: "Priya Lannister",
+    email: "priyalannister@gmail.com",
     cost: "1.24",
-    phone: "(421)314-2288",
+    phone: "+91 9123456780",
     date: "06/15/2021",
+    profit: "2000"
   },
   {
     id: 3,
-    name: "Jaime Lannister",
-    email: "jaimelannister@gmail.com",
+    name: "Neha Singh",
+    email: "nehasingh@gmail.com",
     cost: "11.24",
-    phone: "(422)982-6739",
+    phone: "+91 9234567890",
     date: "05/02/2022",
+    profit: "1200"
   },
   {
     id: 4,
-    name: "Anya Stark",
-    email: "anyastark@gmail.com",
+    name: "Asha Kumari",
+    email: "ashakumari@gmail.com",
     cost: "80.55",
-    phone: "(921)425-6742",
+    phone: "+91 9345678901",
     date: "03/21/2022",
+    profit: "2055"
   },
   {
     id: 5,
-    name: "Daenerys Targaryen",
-    email: "daenerystargaryen@gmail.com",
+    name: "Pooja Targaryen",
+    email: "poojatargaryen@gmail.com",
     cost: "1.24",
-    phone: "(421)445-1189",
+    phone: "+91 9456789012",
     date: "01/12/2021",
+    profit: "2000"
   },
   {
     id: 6,
     name: "Ever Melisandre",
     email: "evermelisandre@gmail.com",
     cost: "63.12",
-    phone: "(232)545-6483",
+    phone: "+91 9567890123",
     date: "11/02/2022",
+    profit: "1312"
   },
   {
     id: 7,
-    name: "Ferrara Clifford",
-    email: "ferraraclifford@gmail.com",
+    name: "Sara Reddy",
+    email: "sarareddy@gmail.com",
     cost: "52.42",
-    phone: "(543)124-0123",
+    phone: "+91 9678901234",
     date: "02/11/2022",
+    profit: "900"
   },
   {
     id: 8,
-    name: "Rossini Frances",
-    email: "rossinifrances@gmail.com",
+    name: "Nisha Iyer",
+    email: "nishaiyer@gmail.com",
     cost: "21.24",
-    phone: "(222)444-5555",
+    phone: "+91 9789012345",
     date: "05/02/2021",
-  },
+    profit: "13.00"
+  },{id:9,
+    name:"Total Profit",
+    profit:"11775"  
+  }
 ];
+
 
 export const mockTransactions = [
   {

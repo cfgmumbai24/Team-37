@@ -17,9 +17,9 @@ const Feed = () => {
       <Divider />
       <Testimonials />
       <Divider />
-     <Highlights/>
+      <Highlights />
       <Divider />
-       <Divider />
+      <Divider />
       <FAQ />
     </div>
   );

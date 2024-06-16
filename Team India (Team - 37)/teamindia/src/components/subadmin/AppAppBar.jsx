@@ -149,7 +149,7 @@ function AppAppBar({ mode, toggleColorMode, token }) {
                   </Typography>
                 </MenuItem>
                 <MenuItem
-                  onClick={() => navigate("/subadmin/blogs")}
+                  onClick={() => navigate("/jpmmss/blogs")}
                   sx={{ py: "6px", px: "12px" }}
                 >
                   <Typography variant="body2" color="text.primary">
@@ -157,7 +157,7 @@ function AppAppBar({ mode, toggleColorMode, token }) {
                   </Typography>
                 </MenuItem>
                 <MenuItem
-                  onClick={() => navigate("/subadmin/about")}
+                  onClick={() => navigate("/jpmmss/about")}
                   sx={{ py: "6px", px: "12px" }}
                 >
                   <Typography variant="body2" color="text.primary">
@@ -165,7 +165,7 @@ function AppAppBar({ mode, toggleColorMode, token }) {
                   </Typography>
                 </MenuItem>
                 <MenuItem
-                  onClick={() => navigate("/subadmin/contact")}
+                  onClick={() => navigate("/jpmmss/contact")}
                   sx={{ py: "6px", px: "12px" }}
                 >
                   <Typography variant="body2" color="text.primary">

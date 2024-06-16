@@ -27,6 +27,8 @@ import Login from "./pages/artisian/Login";
 import Products from "./pages/buyers/Products";
 import Cart from "./pages/buyers/Cart";
 import EntryPage from "./pages/EntryPage";
+import ProductPage from "./pages/buyers/ProductPage";
+import Navbar from "./components/buyers/Navbar/Navbar";
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
   return (
@@ -88,11 +90,13 @@ function App() {
     <ThemeProvider theme={showCustomTheme ? LPtheme : defaultTheme}>
       <CssBaseline />
       <BrowserRouter>
-        <AppAppBar
+        {/* <AppAppBar
           mode={mode}
           toggleColorMode={toggleColorMode}
           token={token}
-        />
+        /> */}
+        <Navbar />
+
         <Routes>
           <Route path="/" element={<EntryPage />} />
           <Route path="/jpmmss" element={<Feed />} />
@@ -111,24 +115,21 @@ function App() {
 
           {/* Buyer */}
           <Route path="/customer/product" element={<Products />} />
-          <Route path='/customer/checkout-items' element={<Cart />} />
+          <Route path="/customer/checkout-items" element={<Cart />} />
 
           <Route path="/user" element={<Form />} />
           <Route path="/user/guide" element={<Guide />} />
 
-          
-          <Route path='/customer/product' element={<ProductPage />}>
-            <Route path=':productId' element={<ProductPage />} />
+          <Route path="/customer/product" element={<ProductPage />}>
+            <Route path=":productId" element={<ProductPage />} />
           </Route>
-
 
           {/* User */}
           <Route path="/user" element={<Signup />} />
           <Route path="/user/form" element={<Signup />} />
 
           <Route path="*" element={<PageNotFound />} />
-          <Route path="/guide" element={<Guide/>}/>
-    
+          <Route path="/guide" element={<Guide />} />
         </Routes>
         <Footer />
       </BrowserRouter>

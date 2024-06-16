@@ -23,7 +23,7 @@ const Invoice = () => {
     },
     {
       field: "cost",
-      headerName: "COST",
+      headerName: "SELLING PRICE  (₹)",
       flex: 1,
       renderCell: (params) => {
         <Typography color={colors.greenAccent[500]}>
@@ -41,12 +41,17 @@ const Invoice = () => {
       headerName: "PHONE NUMBER",
       flex: 1,
     },
+    {
+      field: "profit",
+      headerName: "PROFIT  (₹)",
+      flex: 1,
+    },
   ];
 
   return (
     <Box m="20px">
       <Header
-        title="CONTACTS"
+        title="INVOICES"
         subtitle="Managing the Invoices for Future Reference"
       />
       <Box
@@ -74,10 +79,10 @@ const Invoice = () => {
             backgroundColor: colors.blueAccent[700],
           },
           "& .MuiCheckBox-root": {
-            color: `${colors.greenAccent[200]} !important`,
+            color: "${colors.greenAccent[200]} !important",
           },
           "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
-            color: `${colors.grey[100]} !important`,
+            color: "${colors.grey[100]} !important",
           },
         }}
       >

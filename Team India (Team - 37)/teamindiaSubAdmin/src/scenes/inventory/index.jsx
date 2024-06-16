@@ -107,7 +107,7 @@ const Inventory = () => {
             color: "white !important",
           },
           "& .row-quantity-zero": {
-            backgroundColor: "red !important",
+            backgroundColor: "#FF474C !important",
             color: "white !important",
           },
         }}
