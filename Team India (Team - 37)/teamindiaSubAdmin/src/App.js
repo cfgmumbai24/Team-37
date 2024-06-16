@@ -17,6 +17,7 @@ import Line from "./scenes/line";
 import Geography from "./scenes/geography";
 import Inventory from "./scenes/inventory";
 import Category from "./scenes/category";
+import Signin from "./components/Signin";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -33,8 +34,8 @@ function App() {
             <Topbar />
 
             <Routes>
-              {/* <Route path="/" element={<Dashboard />} /> */}
-              <Route path="/" element={<Inventory />} />
+              <Route path="/" element={<Signin />} />
+              <Route path="/inventory" element={<Inventory />} />
               <Route path="/request" element={<Request />} />
               <Route path="/calendar" element={<Calendar />} />
             </Routes>
